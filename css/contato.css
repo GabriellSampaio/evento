@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.formulario-container {
+  max-width: 500px;
+  width: 100%;
+  margin: 150px auto 40px auto;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 234, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.formulario-titulo {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  color: #0ff;
+  text-transform: uppercase;
+  text-shadow: 0 0 50px #00ffea;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formulario-campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #fff;
+  border-radius: 8px;
+  padding-bottom: 5px;
+}
+
+.formulario-campo label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.formulario-campo input[type="text"],
+.formulario-campo input[type="email"],
+.formulario-campo input[type="password"],
+.formulario-campo textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+input[type="password"] {
+  -webkit-text-security: disc;
+}
+
+.botao-enviar {
+  padding: 12px 0;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: #00ffea;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 7px #00ffea;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.botao-enviar:hover {
+  background-color: #00b3b3;
+}
+
+/* estilizaçao padrao p navbar */
+.navbar {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000 !important;
+  border-bottom: 3px solid #00ffea;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(0 0 5px #00ffea);
+}
+
+.nav-link {
+  color: #00ffea !important;
+  text-shadow: 0 0 5px #00ffea;
+}
+
+.nav-link:hover {
+  color: #ff00c8 !important;
+  text-shadow: 0 0 10px #ff00c8;
+}
+
+.nav-item {
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  padding: 5px;
+}
+
+.footer-custom {
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}

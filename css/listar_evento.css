@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+
+}
+
+.container {
+  max-width: 1100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: #0ff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Garante que o conteúdo ocupe o espaço disponível */
+  height: 100%; /* Faz o card ocupar toda a altura disponível */
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0ff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img {
+  width: 100%;
+  max-width: 350px;
+  max-height: 250px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.card-content h3 {
+  margin-top: 10px;
+  color: #0ff;
+  
+}
+
+.card-content p {
+  margin: 5px 0;
+  color: #fff;
+}
+
+.card-content p {
+  margin: 5px 0;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.card-content {
+  flex-grow: 1; /* Faz o conteúdo crescer para ocupar o espaço disponível */
+}
+
+.btn-edit {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #00f0ff;
+  color: #000;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-edit:hover {
+  background-color: #00c0cc;
+}
+
+.btn-delete {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #b81001;
+  color: #ffffff;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #e20000;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-edit, .btn-delete {
+  flex: 1;
+  text-align: center;
+}
+
+p{
+  color: #fff;
+}
+
+/* estilizaçao padrao p navbar */
+.navbar {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000 !important;
+  border-bottom: 3px solid #00ffea;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(0 0 5px #00ffea);
+}
+
+.nav-link {
+  color: #00ffea !important;
+  text-shadow: 0 0 5px #00ffea;
+}
+
+.nav-link:hover {
+  color: #ff00c8 !important;
+  text-shadow: 0 0 10px #ff00c8;
+}
+
+.nav-item {
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  padding: 5px;
+}
+
+.footer-custom {
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}

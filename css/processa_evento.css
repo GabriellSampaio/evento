@@ -1,0 +1,79 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1b1b;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 15px;
+  border: 2px solid #00ffea;
+  box-shadow: 0 0 20px #00ffea;
+  max-width: 700px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  color: #00ffea;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #00ffea;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.question p {
+  color: #ff00c8;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #ff00c8;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.actions a {
+  background-color: #ff00c8;
+  color: white;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff00c8;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.actions a:hover {
+  background-color: #ff4de6;
+  box-shadow: 0 0 15px #ff00c8;
+  transform: scale(1.05);
+}
+
+.actions a i {
+  font-size: 14px;
+}

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1b1b;
+}
+
+.pai {
+  padding-inline: 300px;
+  margin-top: 150px;
+}
+
+.card {
+  background-color: #111;
+  border: 2px solid #00ffea;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ffea;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 18px;
+  text-align: center;
+  color: #ff00c8;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.card-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.btn-primary {
+  align-items: center;
+  background-color: #ff00c8;
+  border: none;
+  width: 250px;
+  box-shadow: 0 0 10px #ff00c8;
+}
+
+img{
+  max-width: 380px;
+  max-height: 180px;
+}
+
+.btn-primary:hover {
+  background-color: #ff4de6;
+  box-shadow: 0 0 15px #ff00c8;
+}
+
+.col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.row {
+  row-gap: 20px;
+  background-color: #000000;
+  padding: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.footer-custom {
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.titulo{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: aqua;
+}
+
+/* estilizaçao padrao p navbar */
+.navbar {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000 !important;
+  border-bottom: 3px solid #00ffea;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(0 0 5px #00ffea);
+}
+
+.nav-link {
+  color: #00ffea !important;
+  text-shadow: 0 0 5px #00ffea;
+}
+
+.nav-link:hover {
+  color: #ff00c8 !important;
+  text-shadow: 0 0 10px #ff00c8;
+}
+
+.nav-item {
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  padding: 5px;
+}
+

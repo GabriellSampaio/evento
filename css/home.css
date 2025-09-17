@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../img/fundo.jpg');
+    background-size: cover; 
+  }
+  
+/* estilizaçao padrao p navbar */
+.navbar {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000 !important;
+  border-bottom: 3px solid #00ffea;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(0 0 5px #00ffea);
+}
+
+.nav-link {
+  color: #00ffea !important;
+  text-shadow: 0 0 5px #00ffea;
+}
+
+.nav-link:hover {
+  color: #ff00c8 !important;
+  text-shadow: 0 0 10px #ff00c8;
+}
+
+.nav-item {
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  padding: 5px;
+}
+
+.footer-custom {
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+  .pai {
+    display: flex;
+    gap: 10px;      
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .pai .carousel {
+    flex: 0 0 900px; 
+  }
+
+  .pai .carousel .carousel-inner,
+  .pai .carousel .carousel-item,
+  .pai .carousel img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-width: 900px;
+    max-height: 520px;
+  }
+
+  .pai .carousells img {
+    max-height: 250px;
+    object-fit: cover;
+    margin: 5px;
+  }
+
+  .explicativa-section .row {
+  gap: 40px;
+  justify-content: center;
+}
+
+.explicativa-section {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffea88;
+}
+
+.ilustracao-explicativa {
+  max-height: 920px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffeaaa;
+}
+
+.bloco-explicativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #00ffea;
+  border-radius: 12px;
+  padding: 25px 15px;
+  box-shadow: 0 0 15px #00ffeaaa;
+}
+
+
+
+.titulo-explicativo {
+  font-family: 'Press Start 2P', cursive;
+  color: #00ffea;
+  text-shadow: 0 0 2px #00ffea, 0 0 10px #00ffea;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bloco-explicativo p {
+  color: #d0f0f0;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.sobre-section {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 35px 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffea88;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sobre-section p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ccefff;
+  margin-bottom: 12px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  width: 600px;
+}
